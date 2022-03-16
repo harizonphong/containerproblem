@@ -1,0 +1,205 @@
+(base) quocphong@Phongs-MBP Container-Loading-Problem % python main.py
+
+Running Problem Set 0
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           6
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======
+
+ERROR : Please try increasing the number of individuals as the unique Rank 1 solutions is less than 3
+ERROR : Please try increasing the number of individuals as the unique Rank 1 solutions is less than 3
+ERROR : Please try increasing the number of individuals as the unique Rank 1 solutions is less than 3
+ERROR : Please try increasing the number of individuals as the unique Rank 1 solutions is less than 3
+Result: 
+============  =======
+Parameter       Value
+============  =======
+Problem Set    0
+Runs           5
+Avg. Volume%  83.1415
+Avg. Number%  88.8283
+Avg. Value%   87.0261
+============  =======
+##############################
+
+
+Running Problem Set 1
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           6
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======
+
+Result: 
+============  =======
+Parameter       Value
+============  =======
+Problem Set    1
+Runs           5
+Avg. Volume%  45.5134
+Avg. Number%  69.8601
+Avg. Value%   68.381
+============  =======
+##############################
+
+
+Running Problem Set 2
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           6
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======
+
+Result: 
+============  =======
+Parameter       Value
+============  =======
+Problem Set    2
+Runs           5
+Avg. Volume%  46.5704
+Avg. Number%  80.0679
+Avg. Value%   79.797
+============  =======
+##############################
+
+
+Running Problem Set 3
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           6
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======
+
+ERROR : Please try increasing the number of individuals as the unique Rank 1 solutions is less than 3
+Result: 
+============  =======
+Parameter       Value
+============  =======
+Problem Set    3
+Runs           5
+Avg. Volume%  77.1237
+Avg. Number%  80.8706
+Avg. Value%   80.4351
+============  =======
+##############################
+
+
+Running Problem Set 4
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           6
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======
+
+Result: 
+============  =======
+Parameter       Value
+============  =======
+Problem Set    4
+Runs           5
+Avg. Volume%  42.0288
+Avg. Number%  68.6911
+Avg. Value%   66.2681
+============  =======
+##############################
+
+
+Running Problem Set 5
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           6
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======
+
+Result: 
+============  =======
+Parameter       Value
+============  =======
+Problem Set    5
+Runs           5
+Avg. Volume%  43.5316
+Avg. Number%  67.0094
+Avg. Value%   64.7876
+============  =======
+##############################
+
+
+Running Problem Set 6
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           6
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======
+
+ERROR : Please try increasing the number of individuals as the unique Rank 1 solutions is less than 3
+ERROR : Please try increasing the number of individuals as the unique Rank 1 solutions is less than 3
+ERROR : Please try increasing the number of individuals as the unique Rank 1 solutions is less than 3
+ERROR : Please try increasing the number of individuals as the unique Rank 1 solutions is less than 3
+Result: 
+============  =======
+Parameter       Value
+============  =======
+Problem Set    6
+Runs           5
+Avg. Volume%  91.0157
+Avg. Number%  96.3105
+Avg. Value%   97.0975
+============  =======
+##############################
+
+
+Running Problem Set 7
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           6
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======

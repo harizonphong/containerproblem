@@ -1,0 +1,307 @@
+Rotation 1:
+
+(base) quocphong@Phongs-MBP Container-Loading-Problem % python main.py
+Running Problem Set 0
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           1
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======
+
+RESULT: 
+============  =======
+Parameter       Value
+============  =======
+Problem Set    0
+Runs           5
+Avg. Volume%  77.9883
+Avg. Number%  82.2857
+Avg. Value%   87.2331
+============  =======
+##############################
+Running Problem Set 1
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           1
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======
+
+RESULT: 
+============  =======
+Parameter       Value
+============  =======
+Problem Set    1
+Runs           5
+Avg. Volume%  52.4285
+Avg. Number%  75.4134
+Avg. Value%   74.7273
+============  =======
+##############################
+Running Problem Set 2
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           1
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======
+
+RESULT: 
+============  =======
+Parameter       Value
+============  =======
+Problem Set    2
+Runs           5
+Avg. Volume%  54.2959
+Avg. Number%  79.3936
+Avg. Value%   80.7138
+============  =======
+##############################
+Running Problem Set 3
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           1
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======
+
+RESULT: 
+============  =======
+Parameter       Value
+============  =======
+Problem Set    3
+Runs           5
+Avg. Volume%  77.4631
+Avg. Number%  79.1252
+Avg. Value%   78.7888
+============  =======
+##############################
+Running Problem Set 4
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           1
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======
+
+RESULT: 
+============  =======
+Parameter       Value
+============  =======
+Problem Set    4
+Runs           5
+Avg. Volume%  39.8743
+Avg. Number%  71.8157
+Avg. Value%   68.9123
+============  =======
+##############################
+
+Running Problem Set 5
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           1
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======
+
+RESULT: 
+============  =======
+Parameter       Value
+============  =======
+Problem Set    5
+Runs           5
+Avg. Volume%  42.362
+Avg. Number%  59.2578
+Avg. Value%   59.7512
+============  =======
+##############################
+
+Running Problem Set 6
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           1
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======
+
+ERROR : Please try increasing the number of individuals as the unique Rank 1 solutions is less than 3
+ERROR : Please try increasing the number of individuals as the unique Rank 1 solutions is less than 3
+ERROR : Please try increasing the number of individuals as the unique Rank 1 solutions is less than 3
+ERROR : Please try increasing the number of individuals as the unique Rank 1 solutions is less than 3
+RESULT: 
+============  =======
+Parameter       Value
+============  =======
+Problem Set    6
+Runs           5
+Avg. Volume%  99.6189
+Avg. Number%  99.6465
+Avg. Value%   99.6758
+============  =======
+##############################
+
+Running Problem Set 7
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           1
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======
+
+RESULT: 
+============  =======
+Parameter       Value
+============  =======
+Problem Set    7
+Runs           5
+Avg. Volume%  58.7403
+Avg. Number%  83.66
+Avg. Value%   83.111
+============  =======
+##############################
+
+Running Problem Set 8
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           1
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======
+
+RESULT: 
+============  =======
+Parameter       Value
+============  =======
+Problem Set    8
+Runs           5
+Avg. Volume%  46.1374
+Avg. Number%  63.3634
+Avg. Value%   62.9711
+============  =======
+##############################
+
+Running Problem Set 9
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           1
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======
+
+ERROR : Please try increasing the number of individuals as the unique Rank 1 solutions is less than 3
+ERROR : Please try increasing the number of individuals as the unique Rank 1 solutions is less than 3
+ERROR : Please try increasing the number of individuals as the unique Rank 1 solutions is less than 3
+ERROR : Please try increasing the number of individuals as the unique Rank 1 solutions is less than 3
+ERROR : Please try increasing the number of individuals as the unique Rank 1 solutions is less than 3
+RESULT: 
+============  =======
+Parameter       Value
+============  =======
+Problem Set         9
+Runs                5
+Avg. Volume%      100
+Avg. Number%      100
+Avg. Value%       100
+============  =======
+##############################
+
+Running Problem Set 10
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           1
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======
+
+RESULT: 
+============  =======
+Parameter       Value
+============  =======
+Problem Set   10
+Runs           5
+Avg. Volume%  64.779
+Avg. Number%  83.8427
+Avg. Value%   85.5187
+============  =======
+##############################
+
+Running Problem Set 11
+===============  =======
+Parameter          Value
+===============  =======
+Generations       200
+Individuals        36
+Rotations           1
+Crossover Prob.    28
+Mutation Prob1      0.1
+Mutation Prob2      0.01
+Tournament Size     2
+===============  =======
+
+RESULT: 
+============  =======
+Parameter       Value
+============  =======
+Problem Set   11
+Runs           5
+Avg. Volume%  58.9891
+Avg. Number%  81.7559
+Avg. Value%   81.9132
+============  =======
+##############################
