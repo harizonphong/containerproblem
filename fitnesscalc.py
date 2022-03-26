@@ -17,8 +17,11 @@ def evaluate(population, truck_dimension, boxes, total_value):
         for box_number, r in zip(individual['order'], individual['rotate']):
             #print(box_number,r)
             dblf = sorted(dblf, key=itemgetter(3))
+            #print(dblf)
             dblf = sorted(dblf, key=itemgetter(5))
+            #print(dblf)
             dblf = sorted(dblf, key=itemgetter(4))
+            #print(dblf)
             if r == 0:
                 l, w, h = boxes[box_number][0:3]
             elif r == 1:
@@ -32,6 +35,7 @@ def evaluate(population, truck_dimension, boxes, total_value):
             else:
                 w, h, l = boxes[box_number][0:3]
 
+            #print(pos)
             for pos in dblf:
                 current = deepcopy(pos)
                 space_vol = pos[3] * pos[4] * pos[5]
