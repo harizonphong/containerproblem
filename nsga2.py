@@ -70,7 +70,7 @@ def rank(population, individuals):
         frontal = sub
 
     result = calc_crowding_dis(individuals)
-
+    print(result)
     for key, value in result.items():
         population[key]['Rank'] = value[3]
         population[key]['CD'] = value[4]

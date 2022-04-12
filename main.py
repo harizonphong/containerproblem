@@ -21,7 +21,7 @@ PC = int(0.8 * NUM_OF_INDIVIDUALS)
 PM1 = 0.1
 PM2 = 0.01
 K = 2
-ROTATIONS = 6
+ROTATIONS = 1
 
 ##MAIN##
 if __name__ == "__main__":

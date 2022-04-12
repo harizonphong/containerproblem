@@ -2,7 +2,7 @@ from operator import itemgetter
 from copy import deepcopy
 import csv
 filename = "remain.csv"
-
+k = 2
 def evaluate(population, truck_dimension, boxes, total_value):
     
     container_vol = truck_dimension[0] * truck_dimension[1] * truck_dimension[2]
@@ -47,12 +47,25 @@ def evaluate(population, truck_dimension, boxes, total_value):
                     occupied_vol += box_vol
                     number_boxes += 1
                     value += box_value
+                    if len(boxes[box_number])==6:
+                        if boxes[box_number][5] !=1:
+                            l = l + k
+                            h = h + k
+                            w = w + k
                     top_space = [pos[0], pos[1], pos[2] + h, l, w, pos[5] - h]
                     beside_space = [pos[0], pos[1] + w, pos[2], l, pos[4] - w, pos[5]]
                     front_space = [pos[0] + l, pos[1], pos[2], pos[3] - l, pos[4], pos[5]]
-                    #print(top_space,beside_space,front_space)
+                   
+                    
                     dblf.remove(current)
-                    dblf.append(top_space)
+
+                    #if the box has index 6 (roi vo)
+                    if len(boxes[box_number])==6:
+                        if boxes[box_number][5] !=1:
+                            dblf.append(top_space)
+                    else:
+                        dblf.append(top_space)
+                        
                     dblf.append(beside_space)
                     dblf.append(front_space)
                     break
@@ -63,20 +76,21 @@ def evaluate(population, truck_dimension, boxes, total_value):
         #print(dblf[-1])
 
         #print(box_number)
-        if r == 0:
-            l, w, h = boxes[box_number][0:3]
-        elif r == 1:
-            w, l, h = boxes[box_number][0:3]
-        elif r == 2:
-            l, h, w = boxes[box_number][0:3]
-        elif r == 3:
-            h, l, w = boxes[box_number][0:3]
-        elif r == 4:
-            h, w, l = boxes[box_number][0:3]
-        else:
-            w, h, l = boxes[box_number][0:3]
-        fields = ['The tich da xep: ', occupied_vol, 'Hop con lai: ',[l,w,h], 'The tich con lai: ',dblf[-1][3:6]]
-        print(fields)
+        if (number_boxes != len(boxes)):
+            if r == 0:
+                l, w, h = boxes[box_number][0:3]
+            elif r == 1:
+                w, l, h = boxes[box_number][0:3]
+            elif r == 2:
+                l, h, w = boxes[box_number][0:3]
+            elif r == 3:
+                h, l, w = boxes[box_number][0:3]
+            elif r == 4:
+                h, w, l = boxes[box_number][0:3]
+            else:
+                w, h, l = boxes[box_number][0:3]
+            fields = ['The tich da xep: ', occupied_vol, 'Hop con lai: ',[l,w,h], 'The tich con lai: ',dblf[-1][3:6]]
+            print(fields)
         #print(dblf[-1][3:6])
         #print(dblf)
                 
